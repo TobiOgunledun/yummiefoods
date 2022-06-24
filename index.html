@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+
+    
+    <link rel="stylesheet" type="text/html" href="./user/Downloads/fontawesome-free-6.1.1-web/css/all.css">
+
+	<link rel="stylesheet" href="file:///C:/Users/User/Desktop/iTins/icons/fontawesome-free-6.1.1-web/css/all.css">
+
+    <script src="https://kit.fontawesome.com/2bbbf54a3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="home" id="home">
+        <main class="welcome" id="welcome">
+            <header class="headingText" id="headingText">
+                <h1>
+                    fastest <br><span> delivery</span> & <br> easy <span>pickup</span> 
+                </h1>
+                <p>
+                    Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.
+                </p>
+                <form>
+                    <input type="text" placeholder="Check your location">
+                    <i class="fas fa-location"></i>
+                    <input type="submit" value="Discover">
+                    <!-- <i class="fas fa-chevron-right"></i> -->
+                </form>
+            </header>
+            <nav>
+                <label for="logo"> Yummie</label>
+
+                <ul class="menubar" id="menubar">
+                    <li><a href="#home" onclick="navLink()">home</a></li>
+                    <li><a href="#about" onclick="navLink()">about us</a></li>
+                    <li><a href="#category" onclick="navLink()">category</a></li>
+                    <li><a href="#footer" onclick="navLink()">contact</a></li>
+
+                </ul>
+                <i class="fas fa-cart-shopping cart" id="" onclick="showCart()"></i>
+
+                <i class="fas fa-bars menu" id="showMenu" onclick="showMenu()"></i>
+                <i class="fas fa-times menu" id="hideMenu" onclick="hideMenu()"></i>
+            </nav>
+        </main>
+        
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="container" id="container">
+
+            <div class="header">
+                <h1>about <span>us</span></h1>
+            </div>
+            <div class="aboutSection" id="aboutSection">
+                <div class="aboutImage" id="aboutImage">
+                    <img src="./img/bkg02.png" alt="image of a dry burger containing vegetable and protein">
+                </div>
+
+                <div class="aboutText" id="aboutText">
+                    <h1 class="h1">
+                        We make good and tasty food
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis nesciunt 
+                        sint vero expedita deserunt consequatur quis, saepe dolor sequi. Quis minus ut nam totam
+                    </p>
+                    <div class="btn" id="btn">
+                        <a href=""><button>All Menu</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="category" id="category">
+        <div class="container" id="container">
+            <div class="header">
+                <h1>Explore <span>by</span> Category</h1>
+            </div>
+       
+            <div class="categoryItems" id="categoryItems">
+                <button>local food</button>
+                <button>jollof</button>
+                <button>pasta</button>
+                <button>chicken</button>
+                <button>snacks</button>
+                <button>desert</button>
+                <button>healthy</button>   
+            </div>
+
+            <div class="categorySection" id="categorySection">
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Burger
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Burger
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Burger
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Burger
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Fries
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel" id="boxModel">
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            Jollof
+                        </h1>
+                        <p>
+                            vegetables and cheese lettuce
+                        </p>
+                        <h2 id="foodPrice"><span>#2000</span></h2>
+                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+               
+               
+            </div>
+        </div>
+
+    </section>
+
+    <section class="order" id="order">
+        <div class="container" id="container">
+            <div class="header">
+                <h1>how <span>to</span> order</h1>
+            </div>
+
+            <div class="orderSection" id="orderSection">
+
+                <div class="orderProcedure">
+                    <h1>
+                        AN IMAGE GOES HERE
+                    </h1>
+                </div>
+
+                <button onclick="showCart()">Place an Order Now</button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <aside class="cart" id="cart" >
+        <button class="returnIcon"><i class="fas fa-arrow-left" onclick="hideCart()"></i></button>
+
+        <div class="wrapper" id="wrapper">
+            <div class="header" style="font-size: 1em; border-bottom: 2px solid #000">
+                <h1>shopping <span>cart</span></h1>
+            </div>
+            <div class="cartModel" id="cartModel">
+                
+            </div>
+
+            <button onclick="checkOut()">checkout</button>
+        </div>        
+    </aside>
+
+    <div class="payment" id="payment">
+        <i class="fas fa-times" onclick="closeCheckOut()"></i>
+        <div class="paymentContainer">
+
+        </div>
+    </div>
+
+
+     <footer class="footer" id="footer">
+        <div class="container" id="container">
+            <div class="footSection" id="footSection">
+                
+            </div>
+            <div class="foot_contents">
+                <div class="foot_content1">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=""> <i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-twitter"></i></a>
+                    
+                   
+                </div> 
+    
+                <div class="foot_content2">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#category">category</a></li>
+                        <li><a href="#footer">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="foot_wraps">            
+                <p>
+                    All rights reserved. Copyright &copy; 2021. <a href="">Tobs</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+<script src="code.js"></script>
+</body>
+</html>

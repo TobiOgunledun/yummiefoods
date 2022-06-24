@@ -1,0 +1,126 @@
+@media (min-width: 992px){
+    header{
+        width: 50vw;
+    }
+    header form{
+        width: 60%;
+    }
+    .container{
+        width: 90vw;
+        height: fit-content;
+    }
+    nav{
+        top: 2vh;
+        left: 20%;
+        transform: translateX(-10%);
+        width: 80vw;
+        margin: 0 auto;
+        border-radius: 1em;
+        background: rgba(255, 159, 41, 0.8);
+        backdrop-filter: blur(5px);
+    }
+    nav ul{
+        position: relative;
+        top: 0;
+        flex-direction: row;
+        background: none;
+        border: 0;
+        border-radius: 0;
+        backdrop-filter: none;
+        box-shadow: none;
+        gap: 0;
+    }
+    nav .mode{
+        padding-right: 1em;
+        display: block;
+    }
+    header form i{
+        right: 35%;
+    }
+    #showMenu, #HideMenu, nav i{
+        display: none;
+    }
+    .aboutSection .aboutImage, .aboutSection .aboutText{
+        width: 45%;
+    }
+    footer{
+        padding-top: 1em;
+
+    }
+    .foot_contents{
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .foot_content1{
+        width: 40%;
+    }
+    aside{
+        width: 30em;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    header{
+        width: 50vw;
+    }
+    header form{
+        width: 60%;
+    }
+    nav{
+        top: 2vh;
+        left: 20%;
+        transform: translateX(-10%);
+        width: 80vw;
+        margin: 0 auto;
+        border-radius: 1em;
+        background: rgba(255, 159, 41, 0.8);
+        backdrop-filter: blur(5px);
+        /* position: relative; */
+    }
+    nav ul{
+        transform: translateY(10%);
+        position: relative;
+        top: 0;
+        flex-direction: row;
+        background: none;
+        border: 0;
+        border-radius: 0;
+        backdrop-filter: none;
+        box-shadow: none;
+        gap: 0;
+    }
+    nav a{
+        font-size: .9em;
+    }
+    header form i{
+        right: 30%;
+    }
+    #showMenu, #HideMenu, nav i{
+        display: none;
+    }
+    label{
+        padding-left:.5em;
+    }
+    nav .mode{
+        padding-right: 1em;
+        display: block;
+    }
+    .aboutSection .aboutImage, .aboutSection .aboutText{
+        width: 45%;
+    }
+    footer{
+        padding-top: 1em;
+
+    }
+    .foot_contents{
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .foot_content1{
+        width: 40%;
+    }
+    aside{
+        width: 30em;
+    }
+}
