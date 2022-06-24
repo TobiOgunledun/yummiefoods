@@ -163,7 +163,7 @@ nav{
     color: #fff;
     z-index: 10;
     background: var(--mainColor);
-    background: rgba(255, 159, 41, 0.6);
+    background: rgba(255, 159, 41, 0.9);
     backdrop-filter: blur(5px);
     box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
 }

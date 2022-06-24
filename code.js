@@ -39,7 +39,7 @@ function navLink(){
 }
 function showCart(){
     theCart.style.left = "0";
-    theBody.style.overflow = "hidden";
+    // theBody.style.overflow = "hidden";
 }
 function hideCart(){
     theCart.style.left = "-100vw";
