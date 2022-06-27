@@ -43,11 +43,13 @@
                     <li><a href="#footer" onclick="navLink()">contact</a></li>
 
                 </ul>
-                <i class="fas fa-cart-shopping cart" id="" onclick="showCart()"></i>
 
+                <a href="#cartPage" id="cart"> <i class="fas fa-cart-shopping" id="" onclick="showCart()"></i></a>
                 <i class="fas fa-bars menu" id="showMenu" onclick="showMenu()"></i>
                 <i class="fas fa-times menu" id="hideMenu" onclick="hideMenu()"></i>
             </nav>
+            
+
         </main>
         
 
@@ -61,7 +63,7 @@
             </div>
             <div class="aboutSection" id="aboutSection">
                 <div class="aboutImage" id="aboutImage">
-                    <img src="./img/bkg02.png" alt="image of a dry burger containing vegetable and protein">
+                    <img src="./img/logo03.jpg" alt="image of a dry burger containing vegetable and protein">
                 </div>
 
                 <div class="aboutText" id="aboutText">
@@ -69,11 +71,12 @@
                         We make good and tasty food
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis nesciunt 
-                        sint vero expedita deserunt consequatur quis, saepe dolor sequi. Quis minus ut nam totam
+                        Cookbox inc is an Afro-Caribbean food company established to cater for all events with an african twist. 
+                        It is a one-stop online outlet for quality meals. <br>
+                        We specialize in all Nigerian dishes and working towards driving them to the fore front of fine dining.
                     </p>
                     <div class="btn" id="btn">
-                        <a href=""><button>All Menu</button></a>
+                        <a href="#category"><button>All Menu</button></a>
                     </div>
                 </div>
             </div>
@@ -85,124 +88,273 @@
     <section class="category" id="category">
         <div class="container" id="container">
             <div class="header">
-                <h1>Explore <span>by</span> Category</h1>
+                <h1>Explore <span>The</span> Menu</h1>
             </div>
        
-            <div class="categoryItems" id="categoryItems">
-                <button>local food</button>
-                <button>jollof</button>
-                <button>pasta</button>
-                <button>chicken</button>
-                <button>snacks</button>
-                <button>desert</button>
-                <button>healthy</button>   
+            <div class="categoryItems buttons" id="categoryItems">
+                <button class="all">All</button>
+                <button class="grill">grill</button>
+                <button class="healthy">healthy</button>
+                <button class="soup">stew 'n' soup</button>
             </div>
 
             <div class="categorySection" id="categorySection">
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel soup" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/soup02.jpeg" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Burger
+                            okro
                         </h1>
                         <p>
                             vegetables and cheese lettuce
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel grill" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/grill02.jpg" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Burger
+                            grilled meat
                         </h1>
                         <p>
-                            vegetables and cheese lettuce
+                            protein
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel grill" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/grill05.png" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Burger
+                            asun
                         </h1>
                         <p>
-                            vegetables and cheese lettuce
+                            protein
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel grill" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/grill04.jpg" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Burger
+                            peppered snail
                         </h1>
                         <p>
-                            vegetables and cheese lettuce
+                            protein
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel soup" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/soup6.jpg" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Fries
+                            efo riro
                         </h1>
                         <p>
-                            vegetables and cheese lettuce
+                            vegetable
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-                <div class="boxModel" id="boxModel">
+                <div class="boxModel healthy" id="" >
                     <div class="boxImage" id="boxImage">
                         <div class="foodOverlay"></div>
-                        <img src="./img/bkg02.png" alt="" id="foodImage">
+                        <img src="./img/hea01.jpg" alt="" class="foodImage">
                     </div>
                     <div class="boxDesc" id="boxDesc">
                         <h1 id="foodTitle">
-                            Jollof
+                            moin-moin
                         </h1>
                         <p>
-                            vegetables and cheese lettuce
+                            healthy
                         </p>
-                        <h2 id="foodPrice"><span>#2000</span></h2>
-                        <button onclick="addCart()"><i class="fas fa-cart-plus"></i></button>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
                     </div>
                 </div>
 
-               
-               
+                <div class="boxModel soup" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/soup03.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            egusi soup
+                        </h1>
+                        <p>
+                            protein
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel healthy" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/hea02.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            plantain fries
+                        </h1>
+                        <p>
+                            healthy
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel grill" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/grill03.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            peppered turkey
+                        </h1>
+                        <p>
+                            protein
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel soup" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/rice01.png" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            jollof rice & chicken
+                        </h1>
+                        <p>
+                            protein
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel grill" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/grill.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            nkwobi
+                        </h1>
+                        <p>
+                            vegetable
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel grill" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/psoup01.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            isi ewu
+                        </h1>
+                        <p>
+                            vegetable
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel soup" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/soup05.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            cowparts peppersoup
+                        </h1>
+                        <p>
+                            protein
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel healthy" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/salad.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            salad
+                        </h1>
+                        <p>
+                            healthy
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="boxModel soup" id="" >
+                    <div class="boxImage" id="boxImage">
+                        <div class="foodOverlay"></div>
+                        <img src="./img/soup04.jpg" alt="" class="foodImage">
+                    </div>
+                    <div class="boxDesc" id="boxDesc">
+                        <h1 id="foodTitle">
+                            stew(ayamase)
+                        </h1>
+                        <p>
+                            protein
+                        </p>
+                        <h2 id="foodPrice"><span>NGN 2000</span></h2>
+                        <button onclick="addCart()" class="cartBtn" ><i class="fas fa-cart-plus"></i></button>
+                    </div>
+                </div>
+
+           
             </div>
         </div>
 
@@ -222,35 +374,84 @@
                     </h1>
                 </div>
 
-                <button onclick="showCart()">Place an Order Now</button>
+                <a href="#cartPage"><button onclick="showCart()">Place Your Order Now</button></a>
 
             </div>
 
         </div>
     </section>
 
-    <aside class="cart" id="cart" >
-        <button class="returnIcon"><i class="fas fa-arrow-left" onclick="hideCart()"></i></button>
 
-        <div class="wrapper" id="wrapper">
-            <div class="header" style="font-size: 1em; border-bottom: 2px solid #000">
-                <h1>shopping <span>cart</span></h1>
+    <div class="cartPage" id="cartPage">
+        <button onclick="hideCart()" class="returnIcon"><i class="fas fa-arrow-left"></i></button>
+
+        <aside class="cartSection" id="cartSection" >
+            <div class="wrapper" id="wrapper">
+
+                <div class="header" style="font-size: 1em; border-bottom: 2px solid #000">
+                    <h1>shopping <span>cart</span></h1>
+                </div>
+                <div class="cartModel" id="cartModel">
+                    <!-- <div class="cartBox" id="cartBox">
+                        <div class="cartItem" id="cartItem">
+                            <div class="cartImage" id="cartImage">
+                                <div class="foodOverlay"></div>
+                                <img src="./img/bkg02.png" alt="">
+                            </div>
+                            <div class="cartItem2" id="cartItem2">
+                                <div class="cartTitle" id="cartTitle">
+                                    <h1>
+                                        burger
+                                    </h1>
+                                    <h2><span>NGN 2000</span></h2>
+                                    <button class="cancel"><i class="fas fa-times"></i></button>
+                                </div>
+                                <div class="cartOption" id="cartOption">
+                                   
+                                   <button class="minusItem"><i class="fas fa-minus" id="itemMinus"></i></button> 
+                                    <p class="itemNumber">
+                                        1
+                                    </p>
+                                    <button class="plusItem"><i class="fas fa-plus" id="itemPlus"></i> </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                    </div> -->
+                </div>
+    
+                <!-- <button onclick="checkOut()">checkout</button> -->
+            </div>        
+        </aside>
+    
+    
+    
+        <div class="payment" id="payment">
+
+
+            <div class="itemDetails">
+               <div class="title">
+                   <h3>item</h3>
+                   <h3 style="color: #1d693b;">total (ngn)</h3> 
+               </div>
+               <div class="itemsListing">
+                   <h3>subtotal</h3>
+                   <p>2000</p>
+               </div>
+               <div class="itemsListing">
+                    <h3>delivery fee</h3>
+                    <p>1000</p>
+                </div>
+                <div class="itemsListing">
+                    <h3>total</h3>
+                    <p></p>
+                </div>
             </div>
-            <div class="cartModel" id="cartModel">
-                
-            </div>
-
-            <button onclick="checkOut()">checkout</button>
-        </div>        
-    </aside>
-
-    <div class="payment" id="payment">
-        <i class="fas fa-times" onclick="closeCheckOut()"></i>
-        <div class="paymentContainer">
-
+            
+            <a href="cart.html"><button>Proceed to Pay</button></a>
         </div>
     </div>
-
 
      <footer class="footer" id="footer">
         <div class="container" id="container">
@@ -285,6 +486,8 @@
         </div>
     </footer>
 
+
+<script src="https://js.paystack.co/v1/inline.js"></script>
 <script src="code.js"></script>
 </body>
 </html>

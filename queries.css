@@ -10,7 +10,7 @@
         height: fit-content;
     }
     nav{
-        top: 2vh;
+        top: 1em;
         left: 20%;
         transform: translateX(-10%);
         width: 80vw;
@@ -55,7 +55,10 @@
         width: 40%;
     }
     aside{
-        width: 30em;
+        width:45%;
+    }
+    .payment{
+        width: 45%;
     }
     
 }
@@ -68,7 +71,7 @@
         width: 60%;
     }
     nav{
-        top: 2vh;
+        top: 1em;
         left: 20%;
         transform: translateX(-10%);
         width: 80vw;
@@ -121,6 +124,9 @@
         width: 40%;
     }
     aside{
-        width: 30em;
+        width:45%;
+    }
+    .payment{
+        width: 45%;
     }
 }
