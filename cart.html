@@ -19,35 +19,27 @@
 <body>
     <div class="theForm" id="theForm">
 
-        <form id="paymentForm">
-            <div class="header">
-                <h1>Checkout <span>form</span></h1>
-            </div>
-
-            <div class="form-group">
-              <p>Email Address</p>
-              <input type="email" id="email-address" required />
-            </div>
-            <div class="form-group">
-              <p>Amount</p>
-              <input type="tel" id="amount" required />
-            </div>
-            <div class="form-group">
-              <p>First Name</p>
-              <input type="text" id="first-name" required />
-            </div>
-            <div class="form-group">
-              <p>Last Name</p>
-              <input type="text" id="last-name" required />
-            </div>
-            <div class="form-group">
-                <p>Residential Address</p>
-                <input type="text" id="address" required />
-              </div>
-            <div class="form-submit">
-              <button type="submit" onclick="payWithPaystack()"> Pay </button>
-            </div>
-        </form>
+    <form id="paymentForm">
+          <div class="form-group">
+            <p>Email Address</p>
+            <input type="email" id="email-address" required />
+          </div>
+          <div class="form-group">
+            <p>Amount</p>
+            <input type="tel" id="amount" required />
+          </div>
+          <div class="form-group">
+            <p>First Name</p>
+            <input type="text" id="first-name" />
+          </div>
+          <div class="form-group">
+            <p>Last Name</p>
+            <input type="text" id="last-name" />
+          </div>
+          <div class="form-submit">
+            <button type="submit" onclick="payWithPaystack()"> Pay </button>
+          </div>
+    </form>
 
     </div>
 
