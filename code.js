@@ -238,7 +238,7 @@ function itemDecrement(){
 const paymentForm = document.getElementById('paymentForm');
 // paymentForm.addEventListener("submit", payWithPaystack, false);
 function payWithPaystack(e) {
-//   e.preventDefault();
+  e.preventDefault();
   let handler = PaystackPop.setup({
     key: 'pk_test_6aa62fae881943363e20c8f8405c4fa9ecc86624', // Replace with your public key
     email: document.getElementById("email-address").value,
