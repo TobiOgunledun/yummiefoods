@@ -34,15 +34,15 @@
             </div>
             <div class="form-group">
               <p>First Name</p>
-              <input type="text" id="first-name" />
+              <input type="text" id="first-name" required />
             </div>
             <div class="form-group">
               <p>Last Name</p>
-              <input type="text" id="last-name" />
+              <input type="text" id="last-name" required />
             </div>
             <div class="form-group">
                 <p>Residential Address</p>
-                <input type="text" id="address" />
+                <input type="text" id="address" required />
               </div>
             <div class="form-submit">
               <button type="submit" onclick="payWithPaystack()"> Pay </button>
@@ -52,7 +52,9 @@
     </div>
 
    
-    <script src="code.js">
+
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="code.js">
 
     </script>
 </body>

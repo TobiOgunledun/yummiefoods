@@ -199,7 +199,7 @@ console.log(newImage);
 const minusItem = document.getElementById('minusItem');
 const plusItem = document.getElementsByClassName('plusItem');
 
-minusItem.addEventListener("click", itemDecrement);
+// minusItem.addEventListener("click", itemDecrement);
 // plusItem.addEventListener("click", itemIncrement);
 
 // minusItem.onclick = function(){
@@ -236,7 +236,7 @@ function itemDecrement(){
 
 
 const paymentForm = document.getElementById('paymentForm');
-paymentForm.addEventListener("submit", payWithPaystack, false);
+// paymentForm.addEventListener("submit", payWithPaystack, false);
 function payWithPaystack(e) {
 //   e.preventDefault();
   let handler = PaystackPop.setup({
